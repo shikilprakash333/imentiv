@@ -1,0 +1,1702 @@
+{
+  "ABIRoot": {
+    "kind": "Root",
+    "name": "TopLevel",
+    "printedName": "TopLevel",
+    "children": [
+      {
+        "kind": "Import",
+        "name": "UIKit",
+        "printedName": "UIKit",
+        "declKind": "Import",
+        "moduleName": "imentiv",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "AVFoundation",
+        "printedName": "AVFoundation",
+        "declKind": "Import",
+        "moduleName": "imentiv"
+      },
+      {
+        "kind": "Import",
+        "name": "Vision",
+        "printedName": "Vision",
+        "declKind": "Import",
+        "moduleName": "imentiv"
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "imentiv"
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "CameraEmotionDetection",
+        "printedName": "CameraEmotionDetection",
+        "children": [
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CameraEmotionDetection",
+                "printedName": "imentiv.CameraEmotionDetection",
+                "usr": "c:@M@imentiv@objc(cs)CameraEmotionDetection"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "c:@M@imentiv@objc(cs)CameraEmotionDetection(im)init",
+            "mangledName": "$s7imentiv22CameraEmotionDetectionCACycfc",
+            "moduleName": "imentiv",
+            "overriding": true,
+            "objc_name": "init",
+            "declAttributes": [
+              "Dynamic",
+              "ObjC",
+              "Override",
+              "AccessControl"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Function",
+            "name": "startCamera",
+            "printedName": "startCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv22CameraEmotionDetectionC05startB0yyF",
+            "mangledName": "$s7imentiv22CameraEmotionDetectionC05startB0yyF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "stopCamera",
+            "printedName": "stopCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv22CameraEmotionDetectionC04stopB0yyF",
+            "mangledName": "$s7imentiv22CameraEmotionDetectionC04stopB0yyF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "getPredictedEmotion",
+            "printedName": "getPredictedEmotion(completion:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.String, Swift.Double) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Tuple",
+                    "printedName": "(Swift.String, Swift.Double)",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ]
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv22CameraEmotionDetectionC012getPredictedC010completionyySS_Sdtc_tF",
+            "mangledName": "$s7imentiv22CameraEmotionDetectionC012getPredictedC010completionyySS_Sdtc_tF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setupCamera",
+            "printedName": "setupCamera()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv22CameraEmotionDetectionC05setupB0yyF",
+            "mangledName": "$s7imentiv22CameraEmotionDetectionC05setupB0yyF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "captureOutput",
+            "printedName": "captureOutput(_:didOutput:from:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureOutput",
+                "printedName": "AVFoundation.AVCaptureOutput",
+                "usr": "c:objc(cs)AVCaptureOutput"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CMSampleBuffer",
+                "printedName": "CoreMedia.CMSampleBuffer",
+                "usr": "c:@T@CMSampleBufferRef"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "AVCaptureConnection",
+                "printedName": "AVFoundation.AVCaptureConnection",
+                "usr": "c:objc(cs)AVCaptureConnection"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "c:@M@imentiv@objc(cs)CameraEmotionDetection(im)captureOutput:didOutputSampleBuffer:fromConnection:",
+            "mangledName": "$s7imentiv22CameraEmotionDetectionC13captureOutput_03didF04fromySo09AVCaptureF0C_So17CMSampleBufferRefaSo0I10ConnectionCtF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "objc_name": "captureOutput:didOutputSampleBuffer:fromConnection:",
+            "declAttributes": [
+              "ObjC",
+              "AccessControl"
+            ],
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "c:@M@imentiv@objc(cs)CameraEmotionDetection",
+        "mangledName": "$s7imentiv22CameraEmotionDetectionC",
+        "moduleName": "imentiv",
+        "isOpen": true,
+        "declAttributes": [
+          "AccessControl",
+          "ObjC"
+        ],
+        "superclassUsr": "c:objc(cs)NSObject",
+        "inheritsConvenienceInitializers": true,
+        "superclassNames": [
+          "ObjectiveC.NSObject"
+        ],
+        "conformances": [
+          {
+            "kind": "Conformance",
+            "name": "Equatable",
+            "printedName": "Equatable",
+            "usr": "s:SQ",
+            "mangledName": "$sSQ"
+          },
+          {
+            "kind": "Conformance",
+            "name": "Hashable",
+            "printedName": "Hashable",
+            "usr": "s:SH",
+            "mangledName": "$sSH"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CVarArg",
+            "printedName": "CVarArg",
+            "usr": "s:s7CVarArgP",
+            "mangledName": "$ss7CVarArgP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObservingPublishing",
+            "printedName": "_KeyValueCodingAndObservingPublishing",
+            "usr": "s:10Foundation37_KeyValueCodingAndObservingPublishingP",
+            "mangledName": "$s10Foundation37_KeyValueCodingAndObservingPublishingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "_KeyValueCodingAndObserving",
+            "printedName": "_KeyValueCodingAndObserving",
+            "usr": "s:10Foundation27_KeyValueCodingAndObservingP",
+            "mangledName": "$s10Foundation27_KeyValueCodingAndObservingP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomStringConvertible",
+            "printedName": "CustomStringConvertible",
+            "usr": "s:s23CustomStringConvertibleP",
+            "mangledName": "$ss23CustomStringConvertibleP"
+          },
+          {
+            "kind": "Conformance",
+            "name": "CustomDebugStringConvertible",
+            "printedName": "CustomDebugStringConvertible",
+            "usr": "s:s28CustomDebugStringConvertibleP",
+            "mangledName": "$ss28CustomDebugStringConvertibleP"
+          }
+        ]
+      },
+      {
+        "kind": "Import",
+        "name": "CoreML",
+        "printedName": "CoreML",
+        "declKind": "Import",
+        "moduleName": "imentiv",
+        "declAttributes": [
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "dsInput",
+        "printedName": "dsInput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "image",
+            "printedName": "image",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv7dsInputC5imageSo11CVBufferRefavp",
+            "mangledName": "$s7imentiv7dsInputC5imageSo11CVBufferRefavp",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "HasStorage",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv7dsInputC5imageSo11CVBufferRefavg",
+                "mangledName": "$s7imentiv7dsInputC5imageSo11CVBufferRefavg",
+                "moduleName": "imentiv",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "get"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Set",
+                "printedName": "Set()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "CVBuffer",
+                    "printedName": "CoreVideo.CVBuffer",
+                    "usr": "c:@T@CVBufferRef"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv7dsInputC5imageSo11CVBufferRefavs",
+                "mangledName": "$s7imentiv7dsInputC5imageSo11CVBufferRefavs",
+                "moduleName": "imentiv",
+                "implicit": true,
+                "isOpen": true,
+                "declAttributes": [
+                  "Transparent"
+                ],
+                "accessorKind": "set"
+              },
+              {
+                "kind": "Accessor",
+                "name": "Modify",
+                "printedName": "Modify()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv7dsInputC5imageSo11CVBufferRefavM",
+                "mangledName": "$s7imentiv7dsInputC5imageSo11CVBufferRefavM",
+                "moduleName": "imentiv",
+                "implicit": true,
+                "isOpen": true,
+                "intro_Macosx": "10.14",
+                "intro_iOS": "12.0",
+                "intro_tvOS": "12.0",
+                "declAttributes": [
+                  "Transparent",
+                  "Available",
+                  "Available",
+                  "Available",
+                  "Available"
+                ],
+                "accessorKind": "_modify"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureNames",
+            "printedName": "featureNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv7dsInputC12featureNamesShySSGvp",
+            "mangledName": "$s7imentiv7dsInputC12featureNamesShySSGvp",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "objc_name": "featureNames",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv7dsInputC12featureNamesShySSGvg",
+                "mangledName": "$s7imentiv7dsInputC12featureNamesShySSGvg",
+                "moduleName": "imentiv",
+                "isOpen": true,
+                "objc_name": "featureNames",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "featureValue",
+            "printedName": "featureValue(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLFeatureValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLFeatureValue",
+                    "printedName": "CoreML.MLFeatureValue",
+                    "usr": "c:objc(cs)MLFeatureValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv7dsInputC12featureValue3forSo09MLFeatureE0CSgSS_tF",
+            "mangledName": "$s7imentiv7dsInputC12featureValue3forSo09MLFeatureE0CSgSS_tF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "objc_name": "featureValueForName:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsInput",
+                "printedName": "imentiv.dsInput",
+                "usr": "s:7imentiv7dsInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv7dsInputC5imageACSo11CVBufferRefa_tcfc",
+            "mangledName": "$s7imentiv7dsInputC5imageACSo11CVBufferRefa_tcfc",
+            "moduleName": "imentiv",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(imageWith:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsInput",
+                "printedName": "imentiv.dsInput",
+                "usr": "s:7imentiv7dsInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv7dsInputC9imageWithACSo10CGImageRefa_tKcfc",
+            "mangledName": "$s7imentiv7dsInputC9imageWithACSo10CGImageRefa_tKcfc",
+            "moduleName": "imentiv",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Convenience",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(imageAt:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsInput",
+                "printedName": "imentiv.dsInput",
+                "usr": "s:7imentiv7dsInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv7dsInputC7imageAtAC10Foundation3URLV_tKcfc",
+            "mangledName": "$s7imentiv7dsInputC7imageAtAC10Foundation3URLV_tKcfc",
+            "moduleName": "imentiv",
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Convenience",
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "setImage",
+            "printedName": "setImage(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CGImage",
+                "printedName": "CoreGraphics.CGImage",
+                "usr": "c:@T@CGImageRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv7dsInputC8setImage4withySo10CGImageRefa_tKF",
+            "mangledName": "$s7imentiv7dsInputC8setImage4withySo10CGImageRefa_tKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "setImage",
+            "printedName": "setImage(with:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv7dsInputC8setImage4withy10Foundation3URLV_tKF",
+            "mangledName": "$s7imentiv7dsInputC8setImage4withy10Foundation3URLV_tKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "intro_Macosx": "10.15",
+            "intro_iOS": "13.0",
+            "intro_tvOS": "13.0",
+            "intro_watchOS": "6.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7imentiv7dsInputC",
+        "mangledName": "$s7imentiv7dsInputC",
+        "moduleName": "imentiv",
+        "isOpen": true,
+        "intro_Macosx": "10.14",
+        "intro_iOS": "12.0",
+        "intro_tvOS": "12.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "dsOutput",
+        "printedName": "dsOutput",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "provider",
+            "printedName": "provider",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLFeatureProvider",
+                "printedName": "any CoreML.MLFeatureProvider",
+                "usr": "c:objc(pl)MLFeatureProvider"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv8dsOutputC8provider33_E57D1000BA1D56E3A054B29D126AA79BLLSo17MLFeatureProvider_pvp",
+            "mangledName": "$s7imentiv8dsOutputC8provider33_E57D1000BA1D56E3A054B29D126AA79BLLSo17MLFeatureProvider_pvp",
+            "moduleName": "imentiv",
+            "isInternal": true,
+            "declAttributes": [
+              "Final",
+              "HasStorage",
+              "AccessControl",
+              "RawDocComment"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true
+          },
+          {
+            "kind": "Var",
+            "name": "target",
+            "printedName": "target",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv8dsOutputC6targetSSvp",
+            "mangledName": "$s7imentiv8dsOutputC6targetSSvp",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv8dsOutputC6targetSSvg",
+                "mangledName": "$s7imentiv8dsOutputC6targetSSvg",
+                "moduleName": "imentiv",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "targetProbability",
+            "printedName": "targetProbability",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv8dsOutputC17targetProbabilitySDySSSdGvp",
+            "mangledName": "$s7imentiv8dsOutputC17targetProbabilitySDySSSdGvp",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Dictionary",
+                    "printedName": "[Swift.String : Swift.Double]",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Double",
+                        "printedName": "Swift.Double",
+                        "usr": "s:Sd"
+                      }
+                    ],
+                    "usr": "s:SD"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv8dsOutputC17targetProbabilitySDySSSdGvg",
+                "mangledName": "$s7imentiv8dsOutputC17targetProbabilitySDySSSdGvg",
+                "moduleName": "imentiv",
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "featureNames",
+            "printedName": "featureNames",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Set",
+                "printedName": "Swift.Set<Swift.String>",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  }
+                ],
+                "usr": "s:Sh"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv8dsOutputC12featureNamesShySSGvp",
+            "mangledName": "$s7imentiv8dsOutputC12featureNamesShySSGvp",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "objc_name": "featureNames",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Set",
+                    "printedName": "Swift.Set<Swift.String>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "String",
+                        "printedName": "Swift.String",
+                        "usr": "s:SS"
+                      }
+                    ],
+                    "usr": "s:Sh"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv8dsOutputC12featureNamesShySSGvg",
+                "mangledName": "$s7imentiv8dsOutputC12featureNamesShySSGvg",
+                "moduleName": "imentiv",
+                "isOpen": true,
+                "objc_name": "featureNames",
+                "declAttributes": [
+                  "ObjC"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Function",
+            "name": "featureValue",
+            "printedName": "featureValue(for:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Optional",
+                "printedName": "CoreML.MLFeatureValue?",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLFeatureValue",
+                    "printedName": "CoreML.MLFeatureValue",
+                    "usr": "c:objc(cs)MLFeatureValue"
+                  }
+                ],
+                "usr": "s:Sq"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv8dsOutputC12featureValue3forSo09MLFeatureE0CSgSS_tF",
+            "mangledName": "$s7imentiv8dsOutputC12featureValue3forSo09MLFeatureE0CSgSS_tF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "objc_name": "featureValueForName:",
+            "declAttributes": [
+              "ObjC"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(target:targetProbability:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsOutput",
+                "printedName": "imentiv.dsOutput",
+                "usr": "s:7imentiv8dsOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "String",
+                "printedName": "Swift.String",
+                "usr": "s:SS"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Dictionary",
+                "printedName": "[Swift.String : Swift.Double]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "String",
+                    "printedName": "Swift.String",
+                    "usr": "s:SS"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Double",
+                    "printedName": "Swift.Double",
+                    "usr": "s:Sd"
+                  }
+                ],
+                "usr": "s:SD"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv8dsOutputC6target0D11ProbabilityACSS_SDySSSdGtcfc",
+            "mangledName": "$s7imentiv8dsOutputC6target0D11ProbabilityACSS_SDySSSdGtcfc",
+            "moduleName": "imentiv",
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(features:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsOutput",
+                "printedName": "imentiv.dsOutput",
+                "usr": "s:7imentiv8dsOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLFeatureProvider",
+                "printedName": "any CoreML.MLFeatureProvider",
+                "usr": "c:objc(pl)MLFeatureProvider"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv8dsOutputC8featuresACSo17MLFeatureProvider_p_tcfc",
+            "mangledName": "$s7imentiv8dsOutputC8featuresACSo17MLFeatureProvider_p_tcfc",
+            "moduleName": "imentiv",
+            "init_kind": "Designated"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7imentiv8dsOutputC",
+        "mangledName": "$s7imentiv8dsOutputC",
+        "moduleName": "imentiv",
+        "isOpen": true,
+        "intro_Macosx": "10.14",
+        "intro_iOS": "12.0",
+        "intro_tvOS": "12.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      },
+      {
+        "kind": "TypeDecl",
+        "name": "ds",
+        "printedName": "ds",
+        "children": [
+          {
+            "kind": "Var",
+            "name": "model",
+            "printedName": "model",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "MLModel",
+                "printedName": "CoreML.MLModel",
+                "usr": "c:objc(cs)MLModel"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv2dsC5modelSo7MLModelCvp",
+            "mangledName": "$s7imentiv2dsC5modelSo7MLModelCvp",
+            "moduleName": "imentiv",
+            "declAttributes": [
+              "Final",
+              "HasStorage"
+            ],
+            "fixedbinaryorder": 0,
+            "isLet": true,
+            "hasStorage": true,
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "MLModel",
+                    "printedName": "CoreML.MLModel",
+                    "usr": "c:objc(cs)MLModel"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv2dsC5modelSo7MLModelCvg",
+                "mangledName": "$s7imentiv2dsC5modelSo7MLModelCvg",
+                "moduleName": "imentiv",
+                "implicit": true,
+                "declAttributes": [
+                  "Transparent",
+                  "Final"
+                ],
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Var",
+            "name": "urlOfModelInThisBundle",
+            "printedName": "urlOfModelInThisBundle",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Var",
+            "usr": "s:7imentiv2dsC22urlOfModelInThisBundle10Foundation3URLVvpZ",
+            "mangledName": "$s7imentiv2dsC22urlOfModelInThisBundle10Foundation3URLVvpZ",
+            "moduleName": "imentiv",
+            "static": true,
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "accessors": [
+              {
+                "kind": "Accessor",
+                "name": "Get",
+                "printedName": "Get()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "URL",
+                    "printedName": "Foundation.URL",
+                    "usr": "s:10Foundation3URLV"
+                  }
+                ],
+                "declKind": "Accessor",
+                "usr": "s:7imentiv2dsC22urlOfModelInThisBundle10Foundation3URLVvgZ",
+                "mangledName": "$s7imentiv2dsC22urlOfModelInThisBundle10Foundation3URLVvgZ",
+                "moduleName": "imentiv",
+                "static": true,
+                "isOpen": true,
+                "accessorKind": "get"
+              }
+            ]
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(model:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModel",
+                "printedName": "CoreML.MLModel",
+                "usr": "c:objc(cs)MLModel"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv2dsC5modelACSo7MLModelC_tcfc",
+            "mangledName": "$s7imentiv2dsC5modelACSo7MLModelC_tcfc",
+            "moduleName": "imentiv",
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "init_kind": "Designated"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init()",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv2dsCACycfc",
+            "mangledName": "$s7imentiv2dsCACycfc",
+            "moduleName": "imentiv",
+            "deprecated": true,
+            "declAttributes": [
+              "Convenience",
+              "Available",
+              "RawDocComment"
+            ],
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelConfiguration",
+                "printedName": "CoreML.MLModelConfiguration",
+                "usr": "c:objc(cs)MLModelConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv2dsC13configurationACSo20MLModelConfigurationC_tKcfc",
+            "mangledName": "$s7imentiv2dsC13configurationACSo20MLModelConfigurationC_tKcfc",
+            "moduleName": "imentiv",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentsOf:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv2dsC10contentsOfAC10Foundation3URLV_tKcfc",
+            "mangledName": "$s7imentiv2dsC10contentsOfAC10Foundation3URLV_tKcfc",
+            "moduleName": "imentiv",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Constructor",
+            "name": "init",
+            "printedName": "init(contentsOf:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelConfiguration",
+                "printedName": "CoreML.MLModelConfiguration",
+                "usr": "c:objc(cs)MLModelConfiguration"
+              }
+            ],
+            "declKind": "Constructor",
+            "usr": "s:7imentiv2dsC10contentsOf13configurationAC10Foundation3URLV_So20MLModelConfigurationCtKcfc",
+            "mangledName": "$s7imentiv2dsC10contentsOf13configurationAC10Foundation3URLV_So20MLModelConfigurationCtKcfc",
+            "moduleName": "imentiv",
+            "declAttributes": [
+              "Convenience",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "init_kind": "Convenience"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelConfiguration",
+                "printedName": "CoreML.MLModelConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)MLModelConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<imentiv.ds, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<imentiv.ds, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ds",
+                        "printedName": "imentiv.ds",
+                        "usr": "s:7imentiv2dsC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC4load13configuration17completionHandlerySo20MLModelConfigurationC_ys6ResultOyACs5Error_pGctFZ",
+            "mangledName": "$s7imentiv2dsC4load13configuration17completionHandlerySo20MLModelConfigurationC_ys6ResultOyACs5Error_pGctFZ",
+            "moduleName": "imentiv",
+            "static": true,
+            "isOpen": true,
+            "intro_Macosx": "11.0",
+            "intro_iOS": "14.0",
+            "intro_tvOS": "14.0",
+            "intro_watchOS": "7.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelConfiguration",
+                "printedName": "CoreML.MLModelConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)MLModelConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC4load13configurationACSo20MLModelConfigurationC_tYaKFZ",
+            "mangledName": "$s7imentiv2dsC4load13configurationACSo20MLModelConfigurationC_tYaKFZ",
+            "moduleName": "imentiv",
+            "static": true,
+            "isOpen": true,
+            "intro_Macosx": "12.0",
+            "intro_iOS": "15.0",
+            "intro_tvOS": "15.0",
+            "intro_watchOS": "8.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(contentsOf:configuration:completionHandler:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Void",
+                "printedName": "()"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelConfiguration",
+                "printedName": "CoreML.MLModelConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)MLModelConfiguration"
+              },
+              {
+                "kind": "TypeFunc",
+                "name": "Function",
+                "printedName": "(Swift.Result<imentiv.ds, any Swift.Error>) -> ()",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Void",
+                    "printedName": "()"
+                  },
+                  {
+                    "kind": "TypeNominal",
+                    "name": "Result",
+                    "printedName": "Swift.Result<imentiv.ds, any Swift.Error>",
+                    "children": [
+                      {
+                        "kind": "TypeNominal",
+                        "name": "ds",
+                        "printedName": "imentiv.ds",
+                        "usr": "s:7imentiv2dsC"
+                      },
+                      {
+                        "kind": "TypeNominal",
+                        "name": "Error",
+                        "printedName": "any Swift.Error",
+                        "usr": "s:s5ErrorP"
+                      }
+                    ],
+                    "usr": "s:s6ResultO"
+                  }
+                ]
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC4load10contentsOf13configuration17completionHandlery10Foundation3URLV_So20MLModelConfigurationCys6ResultOyACs5Error_pGctFZ",
+            "mangledName": "$s7imentiv2dsC4load10contentsOf13configuration17completionHandlery10Foundation3URLV_So20MLModelConfigurationCys6ResultOyACs5Error_pGctFZ",
+            "moduleName": "imentiv",
+            "static": true,
+            "isOpen": true,
+            "intro_Macosx": "11.0",
+            "intro_iOS": "14.0",
+            "intro_tvOS": "14.0",
+            "intro_watchOS": "7.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "load",
+            "printedName": "load(contentsOf:configuration:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "ds",
+                "printedName": "imentiv.ds",
+                "usr": "s:7imentiv2dsC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "URL",
+                "printedName": "Foundation.URL",
+                "usr": "s:10Foundation3URLV"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLModelConfiguration",
+                "printedName": "CoreML.MLModelConfiguration",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)MLModelConfiguration"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC4load10contentsOf13configurationAC10Foundation3URLV_So20MLModelConfigurationCtYaKFZ",
+            "mangledName": "$s7imentiv2dsC4load10contentsOf13configurationAC10Foundation3URLV_So20MLModelConfigurationCtYaKFZ",
+            "moduleName": "imentiv",
+            "static": true,
+            "isOpen": true,
+            "intro_Macosx": "12.0",
+            "intro_iOS": "15.0",
+            "intro_tvOS": "15.0",
+            "intro_watchOS": "8.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prediction",
+            "printedName": "prediction(input:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsOutput",
+                "printedName": "imentiv.dsOutput",
+                "usr": "s:7imentiv8dsOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "dsInput",
+                "printedName": "imentiv.dsInput",
+                "usr": "s:7imentiv7dsInputC"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC10prediction5inputAA0B6OutputCAA0B5InputC_tKF",
+            "mangledName": "$s7imentiv2dsC10prediction5inputAA0B6OutputCAA0B5InputC_tKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prediction",
+            "printedName": "prediction(input:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsOutput",
+                "printedName": "imentiv.dsOutput",
+                "usr": "s:7imentiv8dsOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "dsInput",
+                "printedName": "imentiv.dsInput",
+                "usr": "s:7imentiv7dsInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLPredictionOptions",
+                "printedName": "CoreML.MLPredictionOptions",
+                "usr": "c:objc(cs)MLPredictionOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC10prediction5input7optionsAA0B6OutputCAA0B5InputC_So19MLPredictionOptionsCtKF",
+            "mangledName": "$s7imentiv2dsC10prediction5input7optionsAA0B6OutputCAA0B5InputC_So19MLPredictionOptionsCtKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prediction",
+            "printedName": "prediction(input:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsOutput",
+                "printedName": "imentiv.dsOutput",
+                "usr": "s:7imentiv8dsOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "dsInput",
+                "printedName": "imentiv.dsInput",
+                "usr": "s:7imentiv7dsInputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLPredictionOptions",
+                "printedName": "CoreML.MLPredictionOptions",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)MLPredictionOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC10prediction5input7optionsAA0B6OutputCAA0B5InputC_So19MLPredictionOptionsCtYaKF",
+            "mangledName": "$s7imentiv2dsC10prediction5input7optionsAA0B6OutputCAA0B5InputC_So19MLPredictionOptionsCtYaKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "intro_Macosx": "14.0",
+            "intro_iOS": "17.0",
+            "intro_tvOS": "17.0",
+            "intro_watchOS": "10.0",
+            "declAttributes": [
+              "Available",
+              "Available",
+              "Available",
+              "Available",
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "prediction",
+            "printedName": "prediction(image:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "dsOutput",
+                "printedName": "imentiv.dsOutput",
+                "usr": "s:7imentiv8dsOutputC"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "CVBuffer",
+                "printedName": "CoreVideo.CVBuffer",
+                "usr": "c:@T@CVBufferRef"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC10prediction5imageAA0B6OutputCSo11CVBufferRefa_tKF",
+            "mangledName": "$s7imentiv2dsC10prediction5imageAA0B6OutputCSo11CVBufferRefa_tKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          },
+          {
+            "kind": "Function",
+            "name": "predictions",
+            "printedName": "predictions(inputs:options:)",
+            "children": [
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[imentiv.dsOutput]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "dsOutput",
+                    "printedName": "imentiv.dsOutput",
+                    "usr": "s:7imentiv8dsOutputC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "Array",
+                "printedName": "[imentiv.dsInput]",
+                "children": [
+                  {
+                    "kind": "TypeNominal",
+                    "name": "dsInput",
+                    "printedName": "imentiv.dsInput",
+                    "usr": "s:7imentiv7dsInputC"
+                  }
+                ],
+                "usr": "s:Sa"
+              },
+              {
+                "kind": "TypeNominal",
+                "name": "MLPredictionOptions",
+                "printedName": "CoreML.MLPredictionOptions",
+                "hasDefaultArg": true,
+                "usr": "c:objc(cs)MLPredictionOptions"
+              }
+            ],
+            "declKind": "Func",
+            "usr": "s:7imentiv2dsC11predictions6inputs7optionsSayAA0B6OutputCGSayAA0B5InputCG_So19MLPredictionOptionsCtKF",
+            "mangledName": "$s7imentiv2dsC11predictions6inputs7optionsSayAA0B6OutputCGSayAA0B5InputCG_So19MLPredictionOptionsCtKF",
+            "moduleName": "imentiv",
+            "isOpen": true,
+            "declAttributes": [
+              "RawDocComment"
+            ],
+            "throwing": true,
+            "funcSelfKind": "NonMutating"
+          }
+        ],
+        "declKind": "Class",
+        "usr": "s:7imentiv2dsC",
+        "mangledName": "$s7imentiv2dsC",
+        "moduleName": "imentiv",
+        "isOpen": true,
+        "intro_Macosx": "10.14",
+        "intro_iOS": "12.0",
+        "intro_tvOS": "12.0",
+        "declAttributes": [
+          "Available",
+          "Available",
+          "Available",
+          "Available",
+          "RawDocComment"
+        ]
+      }
+    ],
+    "json_format_version": 8
+  },
+  "ConstValues": []
+}
